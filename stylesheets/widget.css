@@ -15,7 +15,7 @@ table {
   margin: 0 auto;
   width: 100%;
   height: 100%;
-  background: url(../images/sunset.jpg) no-repeat 410px;
+  background: #2E95AA;
   padding: 20px; }
 
 .widget_container {
@@ -39,7 +39,7 @@ table.current {
   height: 35%;
   font-family: "Roboto", sans-serif;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
   vertical-align: middle;
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25); }
   table.current td {
@@ -80,7 +80,7 @@ table.weekly_forecast {
     table.weekly_forecast tbody tr td .temp {
       font-family: "Roboto", sans-serif;
       text-align: center;
-      margin: 6px 0;
+      margin-top: 15px;
       text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25); }
 
 /*# sourceMappingURL=widget.css.map */
