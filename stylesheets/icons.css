@@ -1,66 +1,65 @@
 /* icons.sass */
-.sprites {
-  height: 300px; }
-
+/* constants.sass */
+/* mixins.sass */
 .icon {
-  background: url(../images/weather-sprites.png) no-repeat;
+  background: url("http://i.imgur.com/93NPLK2.png") no-repeat;
   position: relative;
   width: 50px;
   height: 50px;
   margin: 0 auto; }
 
 .sunrise {
-  background-position: 0px 0px; }
+  background: url("http://i.imgur.com/93NPLK2.png") no-repeat 0px 0px; }
 
 .day {
-  background-position: -96px 0px; }
+  background: url("http://i.imgur.com/93NPLK2.png") no-repeat -96px 0px; }
 
 .night {
-  background-position: -192px 0px; }
+  background: url("http://i.imgur.com/93NPLK2.png") no-repeat -191.5px 0px; }
 
 .eclipse {
-  background-position: -288px 0px; }
+  background: url("http://i.imgur.com/93NPLK2.png") no-repeat -287.25px 0px; }
 
 .overcast {
-  background-position: -384px 0px; }
+  background: url("http://i.imgur.com/93NPLK2.png") no-repeat -383px 0px; }
 
 .gusts {
-  background-position: -480px 0px; }
+  background: url("http://i.imgur.com/93NPLK2.png") no-repeat -478.75px 0px; }
 
 .snowflake {
-  background-position: -576px 0px; }
+  background: url("http://i.imgur.com/93NPLK2.png") no-repeat -574.5px 0px; }
 
 .day-cloudy {
-  background-position: -672px 0px; }
+  background: url("http://i.imgur.com/93NPLK2.png") no-repeat -672px 0px; }
 
 .night-cloudy {
-  background-position: -768px 0px; }
+  background: url("http://i.imgur.com/93NPLK2.png") no-repeat -768px 0px; }
 
 .day-fog {
-  background-position: 0px -96px; }
+  background: url("http://i.imgur.com/93NPLK2.png") no-repeat 0px -96px; }
 
 .night-fog {
-  background-position: -96px -96px; }
+  background: url("http://i.imgur.com/93NPLK2.png") no-repeat -96px -96px; }
 
 .cloudy-fog {
-  background-position: -192px -96px; }
+  background: url("http://i.imgur.com/93NPLK2.png") no-repeat -191.5px -96px; }
 
 .fog {
-  background-position: -288px -96px; }
+  background: url("http://i.imgur.com/93NPLK2.png") no-repeat -287.25px -96px; }
 
 .cloudy {
-  background-position: -384px -96px; }
+  background: url("http://i.imgur.com/93NPLK2.png") no-repeat -383px -96px; }
 
 .thunder {
-  background-position: -480px -96px; }
+  background: url("http://i.imgur.com/93NPLK2.png") no-repeat -478.75px -96px; }
 
 .thunderstorm {
-  background-position: -576px -96px; }
+  background: url("http://i.imgur.com/93NPLK2.png") no-repeat -574.5px -96px; }
 
 .rain {
-  background-position: -672px -96px; }
+  background: url("http://i.imgur.com/93NPLK2.png") no-repeat -672px -96px; }
 
 .rainstorm {
-  background-position: -768px -96px; }
+  background: url("http://i.imgur.com/93NPLK2.png") no-repeat -768px -96px; }
 
 /*# sourceMappingURL=icons.css.map */

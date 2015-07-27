@@ -1,49 +1,48 @@
 /* icons.sass */
 
-.sprites
-  height: 300px
+@import constants
+@import mixins
 
 .icon
-  background: url(../images/weather-sprites.png) no-repeat
+  background: url('http://i.imgur.com/93NPLK2.png') no-repeat
   position: relative
   width: 50px
   height: 50px
   margin: 0 auto
 
 .sunrise
-  background-position: 0px 0px
+  @include weather-sprite($A, $_1)
 .day
-  background-position: -96px 0px
+  @include weather-sprite($B, $_1)
 .night
-  background-position: -192px 0px
+  @include weather-sprite($C, $_1)
 .eclipse
-  background-position: -288px 0px
+  @include weather-sprite($D, $_1)
 .overcast
-  background-position: -384px 0px
+  @include weather-sprite($E, $_1)
 .gusts
-  background-position: -480px 0px
+  @include weather-sprite($F, $_1)
 .snowflake
-  background-position: -576px 0px
+  @include weather-sprite($G, $_1)
 .day-cloudy
-  background-position: -672px 0px
+  @include weather-sprite($H, $_1)
 .night-cloudy
-  background-position: -768px 0px
-
+  @include weather-sprite($I, $_1)
 .day-fog
-  background-position: 0px -96px
+  @include weather-sprite($A, $_2)
 .night-fog
-  background-position: -96px -96px
+  @include weather-sprite($B, $_2)
 .cloudy-fog
-  background-position: -192px -96px
+  @include weather-sprite($C, $_2)
 .fog
-  background-position: -288px -96px
+  @include weather-sprite($D, $_2)
 .cloudy
-  background-position: -384px -96px
+  @include weather-sprite($E, $_2)
 .thunder
-  background-position: -480px -96px
+  @include weather-sprite($F, $_2)
 .thunderstorm
-  background-position: -576px -96px
+  @include weather-sprite($G, $_2)
 .rain
-  background-position: -672px -96px
+  @include weather-sprite($H, $_2)
 .rainstorm
-  background-position: -768px -96px
+  @include weather-sprite($I, $_2)
