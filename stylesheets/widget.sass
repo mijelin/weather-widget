@@ -4,6 +4,7 @@
 @import constants
 
 body
+  background-color: black
   font-family: sans-serif
   color: $white
   margin: 20px auto
@@ -16,11 +17,10 @@ table
   width: 100%
   height: 100%
   background: url(../images/sunset.jpg) no-repeat 410px
-  // background-size: 494px 383px
   padding: 20px
 
 .widget_container
-  width: 375px
+  width: 370px
   height: 190px
   margin: 0 auto
 
@@ -36,28 +36,24 @@ table
   -webkit-background-clip: padding-box
   background-clip: padding-box
 
-.current_weather
+table.current
   margin: 0 auto
-  height: 40%
-  width: 65%
+  width: 75%
+  height: 35%
   font-family: 'Roboto', sans-serif
 
-  .city
-    float: left
-
-  .temp
-    float: right
-
   text-align: center
-  font-size: 25px
-  line-height: 76px
+  font-size: 20px
   vertical-align: middle
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25)
+
+  td
+    width: 33%
 
 table.weekly_forecast
   margin: 0 auto
   width: 100%
-  height: 60%
+  height: 65%
 
   thead
     background: rgb(255, 255, 255)
@@ -80,10 +76,18 @@ table.weekly_forecast
   tbody
 
     td
+      width: 14%
       border: 1px solid rgb(255, 255, 255)
       border: transparent\9
       border: 1px solid rgba(255, 255, 255, 0.2)
       -webkit-background-clip: padding-box
       background-clip: padding-box
+      border-top: none
+      border-bottom: none
+
+      .temp
+        font-family: 'Roboto', sans-serif
+        text-align: center
+        margin: 6px 0
 
 

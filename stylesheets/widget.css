@@ -3,6 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:100);
 /* constants.sass */
 body {
+  background-color: black;
   font-family: sans-serif;
   color: #FFFFFF;
   margin: 20px auto; }
@@ -18,7 +19,7 @@ table {
   padding: 20px; }
 
 .widget_container {
-  width: 375px;
+  width: 370px;
   height: 190px;
   margin: 0 auto;
   background: white;
@@ -32,25 +33,22 @@ table {
   -webkit-background-clip: padding-box;
   background-clip: padding-box; }
 
-.current_weather {
+table.current {
   margin: 0 auto;
-  height: 40%;
-  width: 65%;
+  width: 75%;
+  height: 35%;
   font-family: "Roboto", sans-serif;
   text-align: center;
-  font-size: 25px;
-  line-height: 76px;
+  font-size: 20px;
   vertical-align: middle;
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25); }
-  .current_weather .city {
-    float: left; }
-  .current_weather .temp {
-    float: right; }
+  table.current td {
+    width: 33%; }
 
 table.weekly_forecast {
   margin: 0 auto;
   width: 100%;
-  height: 60%; }
+  height: 65%; }
   table.weekly_forecast thead {
     background: white;
     background: transparent\9;
@@ -67,10 +65,17 @@ table.weekly_forecast {
       -webkit-background-clip: padding-box;
       background-clip: padding-box; }
   table.weekly_forecast tbody td {
+    width: 14%;
     border: 1px solid white;
     border: transparent\9;
     border: 1px solid rgba(255, 255, 255, 0.2);
     -webkit-background-clip: padding-box;
-    background-clip: padding-box; }
+    background-clip: padding-box;
+    border-top: none;
+    border-bottom: none; }
+    table.weekly_forecast tbody td .temp {
+      font-family: "Roboto", sans-serif;
+      text-align: center;
+      margin: 6px 0; }
 
 /*# sourceMappingURL=widget.css.map */
