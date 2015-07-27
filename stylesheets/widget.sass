@@ -4,8 +4,11 @@
 @import constants
 
 body
-  font-family: 'Roboto', sans-serif
+  font-family: sans-serif
   color: $white
+
+table
+  border-collapse: collapse
 
 .background_container
   background-color: $teal
@@ -18,24 +21,67 @@ body
   width: 375px
   height: 190px
   margin: 0 auto
-  border-radius: 5px
 
   background: rgb(255, 255, 255)
   background: transparent\9
-  background: rgba(255, 255, 255, 0.25)
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#3fffffff, endColorstr=#3fffffff)
+  background: rgba(255, 255, 255, 0.1)
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#19ffffff, endColorstr=#19ffffff)
   zoom: 1
+
+  border-radius: 5px
+  border: 2px solid rgb(255, 255, 255)
+  border: 2px solid rgba(255, 255, 255, 0.3)
+  -webkit-background-clip: padding-box
+  background-clip: padding-box
 
 .current_weather
   margin: 0 auto
-  font-weight: 100
+  height: 40%
+  width: 65%
+  font-family: 'Roboto', sans-serif
+
+  .city
+    float: left
+
+  .temp
+    float: right
+
+  text-align: center
+  font-size: 25px
+  line-height: 76px
+  vertical-align: middle
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25)
 
 table.weekly_forecast
-  position: absolute
   margin: 0 auto
+  width: 100%
+  height: 60%
+
   thead
-    font-weight: 700
+    background: rgb(255, 255, 255)
+    background: transparent\9
+    background: rgba(255, 255, 255, 0.25)
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#3fffffff, endColorstr=#3fffffff)
+    zoom: 1
+
+    th
+      width: 14%
+      font-size: 12px
+      padding: 8px 0
+
+      border: 1px solid rgb(255, 255, 255)
+      border: transparent\9
+      border: 1px solid rgba(255, 255, 255, 0.2)
+      -webkit-background-clip: padding-box
+      background-clip: padding-box
+
   tbody
-    font-weight: 100
+
+    td
+      border: 1px solid rgb(255, 255, 255)
+      border: transparent\9
+      border: 1px solid rgba(255, 255, 255, 0.2)
+      -webkit-background-clip: padding-box
+      background-clip: padding-box
 
 
