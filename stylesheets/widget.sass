@@ -38,7 +38,7 @@ table
 
 table.current
   margin: 0 auto
-  width: 75%
+  width: 85%
   height: 35%
   font-family: 'Roboto', sans-serif
 
@@ -73,21 +73,25 @@ table.weekly_forecast
       -webkit-background-clip: padding-box
       background-clip: padding-box
 
-  tbody
+  tbody tr td
+    width: 14%
+    border: 1px solid rgb(255, 255, 255)
+    border: transparent\9
+    border: 1px solid rgba(255, 255, 255, 0.2)
+    -webkit-background-clip: padding-box
+    background-clip: padding-box
+    border-top: none
+    border-bottom: none
 
-    td
-      width: 14%
-      border: 1px solid rgb(255, 255, 255)
-      border: transparent\9
-      border: 1px solid rgba(255, 255, 255, 0.2)
-      -webkit-background-clip: padding-box
-      background-clip: padding-box
-      border-top: none
-      border-bottom: none
+    .icon
+      zoom: 0.75
+      -moz-transform: scale(0.75)
+      -o-transform: scale(0.75)
 
-      .temp
-        font-family: 'Roboto', sans-serif
-        text-align: center
-        margin: 6px 0
+    .temp
+      font-family: 'Roboto', sans-serif
+      text-align: center
+      margin: 6px 0
+      text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25)
 
 

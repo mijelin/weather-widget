@@ -35,7 +35,7 @@ table {
 
 table.current {
   margin: 0 auto;
-  width: 75%;
+  width: 85%;
   height: 35%;
   font-family: "Roboto", sans-serif;
   text-align: center;
@@ -64,7 +64,7 @@ table.weekly_forecast {
       border: 1px solid rgba(255, 255, 255, 0.2);
       -webkit-background-clip: padding-box;
       background-clip: padding-box; }
-  table.weekly_forecast tbody td {
+  table.weekly_forecast tbody tr td {
     width: 14%;
     border: 1px solid white;
     border: transparent\9;
@@ -73,9 +73,14 @@ table.weekly_forecast {
     background-clip: padding-box;
     border-top: none;
     border-bottom: none; }
-    table.weekly_forecast tbody td .temp {
+    table.weekly_forecast tbody tr td .icon {
+      zoom: 0.75;
+      -moz-transform: scale(0.75);
+      -o-transform: scale(0.75); }
+    table.weekly_forecast tbody tr td .temp {
       font-family: "Roboto", sans-serif;
       text-align: center;
-      margin: 6px 0; }
+      margin: 6px 0;
+      text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25); }
 
 /*# sourceMappingURL=widget.css.map */
